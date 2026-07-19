@@ -14,7 +14,7 @@ import {
   ShieldCheck,
   Sparkles,
   UserRoundCheck,
-} from from 'lucide-react';
+} from 'lucide-react';
 
 const students = [
   {
