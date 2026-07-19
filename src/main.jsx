@@ -1,20 +1,19 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import {
-  Activity,
-  Bell,
-  BookOpen,
-  CalendarCheck,
-  CheckCircle2,
-  Clock3,
-  GraduationCap,
-  HeartPulse,
-  LineChart,
-  MessageSquareText,
-  ShieldCheck,
-  Sparkles,
-  UserRoundCheck,
-} from 'lucide-react';
+
+const Activity = () => <span>📊</span>;
+const Bell = () => <span>🔔</span>;
+const BookOpen = () => <span>📚</span>;
+const CalendarCheck = () => <span>📅</span>;
+const CheckCircle2 = () => <span>✅</span>;
+const Clock3 = () => <span>🕒</span>;
+const GraduationCap = () => <span>🎓</span>;
+const HeartPulse = () => <span>❤️</span>;
+const LineChart = () => <span>📈</span>;
+const MessageSquareText = () => <span>💬</span>;
+const ShieldCheck = () => <span>🛡️</span>;
+const Sparkles = () => <span>✨</span>;
+const UserRoundCheck = () => <span>👤</span>;
 
 const students = [
   {
